@@ -2,7 +2,7 @@
 
 import unittest
 import random
-import text_processing as tp
+import test_processing as tp
 
 
 class TestTextProcessing(unittest.TestCase):
