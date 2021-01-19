@@ -7,5 +7,5 @@ def normalize(input_string):
 
 
 def no_vowels(input_string):
-    no_vowel_string = re.sub('[aeiouAEIOU]', '', input_string)
+    no_vowel_string = re.sub('[aAeEiIoOuU]', '', input_string)
     return no_vowel_string
